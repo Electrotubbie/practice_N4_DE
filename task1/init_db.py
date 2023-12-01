@@ -1,4 +1,5 @@
 '''
+competitions
 {
     "id": 202353,
     "name": "Гран-при ФИДЕ 1998",
@@ -10,9 +11,17 @@
     "time_on_game": 17
 }
 
+info_place
+{
+    'name': 'Кубок мира 1974', 
+    'place': 0, 
+    'prise': 21000000
+}
+
+Создание таблиц в БД
 CREATE TABLE competitions (
-    ""           INTEGER    PRIMARY KEY AUTOINCREMENT,
-    id           INTEGER,
+    id           INTEGER    PRIMARY KEY AUTOINCREMENT,
+    comp_id      INTEGER,
     name         TEXT (256),
     city         TEXT (256),
     begin        TEXT (256),
@@ -20,5 +29,12 @@ CREATE TABLE competitions (
     tours_count  INTEGER,
     min_rating   INTEGER,
     time_on_game INTEGER
+);
+CREATE TABLE info_prises (
+    id      INTEGER    PRIMARY KEY AUTOINCREMENT,
+    comp_id INTEGER    REFERENCES competitions (comp_id),
+    name    TEXT (256),
+    place   INTEGER,
+    prise   INTEGER
 );
 '''

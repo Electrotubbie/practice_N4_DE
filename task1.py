@@ -1,5 +1,6 @@
 import json
 import sqlite3
+from general_functions import *
 from pprint import pprint
 
 VAR = 37
@@ -8,16 +9,11 @@ RESULTS_PATH = f'{TASK_PATH}results/'
 DATASET_NAME = 'task_1_var_37_item.json'
 DB_NAME = 'task1.db'
 
-def connect_to_db(db_name):
-    connection = sqlite3.connect(db_name)
-    connection.row_factory = sqlite3.Row
-    return connection
-
 def insert_data(db, data):
     cursor = db.cursor()
     cursor.executemany('''
         INSERT INTO competitions 
-        (id, name, city, begin, system, tours_count, min_rating, time_on_game)
+        (comp_id, name, city, begin, system, tours_count, min_rating, time_on_game)
         VALUES(:id, :name, :city, :begin, :system, :tours_count, :min_rating, :time_on_game)
     ''', data)
     db.commit()
@@ -37,7 +33,7 @@ def get_top_by(db, limit):
     return items
 
 def get_stat_by(db):
-    # выполняется анализ колонки time_on_game
+    # выполняется анализ поля time_on_game
     cursor = db.cursor()
     res = cursor.execute('''
         SELECT
@@ -52,7 +48,7 @@ def get_stat_by(db):
     return stats
 
 def get_freqs(db):
-    # выполняется запрос частоты встречаемости колонки city
+    # выполняется запрос частоты встречаемости поля city
     cursor = db.cursor()
     res = cursor.execute('''
         SELECT city, count(*) as count
@@ -82,27 +78,25 @@ def get_top_filtered_sorted(db, min_rating, limit):
     cursor.close()
     return items
 
-def save_as_json(data, file_name):
-    with open(f'{RESULTS_PATH}{file_name}', mode='w', encoding='UTF-8') as f:
-        json.dump(data, f, ensure_ascii=False)
-
 def main():
     with open(f'{TASK_PATH}{DATASET_NAME}', mode='r', encoding='UTF-8') as f:
         data = list(json.load(f))
     database = connect_to_db(f'{TASK_PATH}{DB_NAME}')
+    # закомментирована строка, чтоб далее не пополнить БД аналогичными строками
     # insert_data(database, data)
 
     top = get_top_by(database, VAR+10)
-    save_as_json(top, 'res1_top.json')
+    save_as_json(top, f'{RESULTS_PATH}res1_top.json')
 
     stats_nums = get_stat_by(database)
-    save_as_json(stats_nums, 'res2_stats_nums.json')
+    save_as_json(stats_nums, f'{RESULTS_PATH}res2_stats_nums.json')
 
     stats_categories = get_freqs(database)
-    save_as_json(stats_categories, 'res3_stats_categories.json')
+    save_as_json(stats_categories, f'{RESULTS_PATH}res3_stats_categories.json')
 
     top_filtered_sorted = get_top_filtered_sorted(database, 2340, VAR+10) # 2340 подогнал так, чтоб срезало по VAR+10
-    save_as_json(top_filtered_sorted, 'res4_top_filtered_sorted.json')
+    save_as_json(top_filtered_sorted, f'{RESULTS_PATH}res4_top_filtered_sorted.json')
+    database.close()
 
 if __name__ == '__main__':
     main()

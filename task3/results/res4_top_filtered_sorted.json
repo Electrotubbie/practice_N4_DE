@@ -1,0 +1,522 @@
+[
+    {
+        "id": 2550,
+        "acousticness": 5.15e-05,
+        "artist": "Creed",
+        "duration_ms": 316733,
+        "genre": "pop, rock, metal",
+        "song": "Higher",
+        "tempo": 155.827,
+        "year": 1999
+    },
+    {
+        "id": 3231,
+        "acousticness": 0.00425,
+        "artist": "Creed",
+        "duration_ms": 274800,
+        "genre": "pop, rock, metal",
+        "song": "With Arms Wide Open",
+        "tempo": 138.852,
+        "year": 1999
+    },
+    {
+        "id": 3453,
+        "acousticness": 0.00132,
+        "artist": "Crazy Town",
+        "duration_ms": 216733,
+        "genre": "rock, metal",
+        "song": "Butterfly",
+        "tempo": 103.502,
+        "year": 1999
+    },
+    {
+        "id": 2595,
+        "acousticness": 0.00958,
+        "artist": "Linkin Park",
+        "duration_ms": 216880,
+        "genre": "rock, metal",
+        "song": "In the End",
+        "tempo": 105.143,
+        "year": 2000
+    },
+    {
+        "id": 2740,
+        "acousticness": 0.0263,
+        "artist": "Bon Jovi",
+        "duration_ms": 224493,
+        "genre": "rock, metal",
+        "song": "It's My Life",
+        "tempo": 119.992,
+        "year": 2000
+    },
+    {
+        "id": 2795,
+        "acousticness": 0.000966,
+        "artist": "Lifehouse",
+        "duration_ms": 216360,
+        "genre": "pop, rock, metal",
+        "song": "Hanging By A Moment",
+        "tempo": 124.599,
+        "year": 2000
+    },
+    {
+        "id": 2810,
+        "acousticness": 0.00958,
+        "artist": "Linkin Park",
+        "duration_ms": 216880,
+        "genre": "rock, metal",
+        "song": "In the End",
+        "tempo": 105.143,
+        "year": 2000
+    },
+    {
+        "id": 3007,
+        "acousticness": 0.0175,
+        "artist": "Limp Bizkit",
+        "duration_ms": 321040,
+        "genre": "metal",
+        "song": "Take A Look Around",
+        "tempo": 101.968,
+        "year": 2000
+    },
+    {
+        "id": 3956,
+        "acousticness": 0.000127,
+        "artist": "Fuel",
+        "duration_ms": 236866,
+        "genre": "rock, pop, metal",
+        "song": "Hemorrhage (In My Hands)",
+        "tempo": 152.034,
+        "year": 2000
+    },
+    {
+        "id": 3989,
+        "acousticness": 0.00664,
+        "artist": "3 Doors Down",
+        "duration_ms": 233933,
+        "genre": "pop, rock, metal",
+        "song": "Kryptonite",
+        "tempo": 99.009,
+        "year": 2000
+    },
+    {
+        "id": 3990,
+        "acousticness": 0.00591,
+        "artist": "Limp Bizkit",
+        "duration_ms": 213760,
+        "genre": "metal",
+        "song": "Rollin' (Air Raid Vehicle)",
+        "tempo": 96.306,
+        "year": 2000
+    },
+    {
+        "id": 2602,
+        "acousticness": 0.00135,
+        "artist": "Nickelback",
+        "duration_ms": 223840,
+        "genre": "rock, metal",
+        "song": "How You Remind Me",
+        "tempo": 172.094,
+        "year": 2001
+    },
+    {
+        "id": 2807,
+        "acousticness": 0.00691,
+        "artist": "Puddle Of Mudd",
+        "duration_ms": 303920,
+        "genre": "rock, metal",
+        "song": "Blurry",
+        "tempo": 157.469,
+        "year": 2001
+    },
+    {
+        "id": 3138,
+        "acousticness": 0.00316,
+        "artist": "Alien Ant Farm",
+        "duration_ms": 209266,
+        "genre": "rock, metal",
+        "song": "Smooth Criminal",
+        "tempo": 126.928,
+        "year": 2001
+    },
+    {
+        "id": 3182,
+        "acousticness": 0.00138,
+        "artist": "Default",
+        "duration_ms": 268693,
+        "genre": "rock, pop, metal",
+        "song": "Wasting My Time",
+        "tempo": 147.973,
+        "year": 2001
+    },
+    {
+        "id": 3309,
+        "acousticness": 0.00935,
+        "artist": "Puddle Of Mudd",
+        "duration_ms": 216760,
+        "genre": "rock, metal",
+        "song": "She Hates Me",
+        "tempo": 109.781,
+        "year": 2001
+    },
+    {
+        "id": 3575,
+        "acousticness": 0.00834,
+        "artist": "P.O.D.",
+        "duration_ms": 256240,
+        "genre": "rock, metal",
+        "song": "Youth of the Nation",
+        "tempo": 97.867,
+        "year": 2001
+    },
+    {
+        "id": 3777,
+        "acousticness": 0.00189,
+        "artist": "Staind",
+        "duration_ms": 264706,
+        "genre": "rock, metal",
+        "song": "It's Been Awhile",
+        "tempo": 116.529,
+        "year": 2001
+    },
+    {
+        "id": 3881,
+        "acousticness": 0.000101,
+        "artist": "Creed",
+        "duration_ms": 294600,
+        "genre": "pop, rock, metal",
+        "song": "My Sacrifice",
+        "tempo": 146.349,
+        "year": 2001
+    },
+    {
+        "id": 2067,
+        "acousticness": 0.0492,
+        "artist": "3 Doors Down",
+        "duration_ms": 238733,
+        "genre": "pop, rock, metal",
+        "song": "Here Without You",
+        "tempo": 143.994,
+        "year": 2002
+    },
+    {
+        "id": 2422,
+        "acousticness": 0.000172,
+        "artist": "Trapt",
+        "duration_ms": 285569,
+        "genre": "rock, metal",
+        "song": "Headstrong",
+        "tempo": 184.981,
+        "year": 2002
+    },
+    {
+        "id": 2556,
+        "acousticness": 0.00385,
+        "artist": "3 Doors Down",
+        "duration_ms": 260333,
+        "genre": "pop, rock, metal",
+        "song": "When I'm Gone",
+        "tempo": 148.095,
+        "year": 2002
+    },
+    {
+        "id": 3562,
+        "acousticness": 0.00043,
+        "artist": "Good Charlotte",
+        "duration_ms": 190173,
+        "genre": "rock, metal",
+        "song": "Lifestyles of the Rich & Famous",
+        "tempo": 106.22,
+        "year": 2002
+    },
+    {
+        "id": 3918,
+        "acousticness": 0.00797,
+        "artist": "Audioslave",
+        "duration_ms": 293960,
+        "genre": "rock, metal",
+        "song": "Like a Stone",
+        "tempo": 107.849,
+        "year": 2002
+    },
+    {
+        "id": 2102,
+        "acousticness": 0.497,
+        "artist": "Limp Bizkit",
+        "duration_ms": 269973,
+        "genre": "metal",
+        "song": "Behind Blue Eyes",
+        "tempo": 120.315,
+        "year": 2003
+    },
+    {
+        "id": 2239,
+        "acousticness": 0.0129,
+        "artist": "Hoobastank",
+        "duration_ms": 232800,
+        "genre": "pop, rock, metal",
+        "song": "The Reason",
+        "tempo": 82.952,
+        "year": 2003
+    },
+    {
+        "id": 2251,
+        "acousticness": 0.111,
+        "artist": "Linkin Park",
+        "duration_ms": 162600,
+        "genre": "rock, metal",
+        "song": "Faint",
+        "tempo": 135.095,
+        "year": 2003
+    },
+    {
+        "id": 2267,
+        "acousticness": 0.00107,
+        "artist": "Marilyn Manson",
+        "duration_ms": 200426,
+        "genre": "rock, metal",
+        "song": "Tainted Love",
+        "tempo": 142.017,
+        "year": 2003
+    },
+    {
+        "id": 2375,
+        "acousticness": 0.00461,
+        "artist": "Three Days Grace",
+        "duration_ms": 231480,
+        "genre": "rock, metal",
+        "song": "I Hate Everything About You",
+        "tempo": 89.342,
+        "year": 2003
+    },
+    {
+        "id": 2526,
+        "acousticness": 0.000616,
+        "artist": "Nickelback",
+        "duration_ms": 207466,
+        "genre": "rock, metal",
+        "song": "Someday",
+        "tempo": 163.118,
+        "year": 2003
+    },
+    {
+        "id": 2622,
+        "acousticness": 0.000109,
+        "artist": "The Rasmus",
+        "duration_ms": 257920,
+        "genre": "metal",
+        "song": "In the Shadows",
+        "tempo": 105.991,
+        "year": 2003
+    },
+    {
+        "id": 2704,
+        "acousticness": 0.863,
+        "artist": "Evanescence",
+        "duration_ms": 262533,
+        "genre": "metal",
+        "song": "My Immortal",
+        "tempo": 79.012,
+        "year": 2003
+    },
+    {
+        "id": 2716,
+        "acousticness": 0.00216,
+        "artist": "Chad Kroeger",
+        "duration_ms": 200480,
+        "genre": "metal",
+        "song": "Hero (feat. Josey Scott)",
+        "tempo": 147.387,
+        "year": 2003
+    },
+    {
+        "id": 3229,
+        "acousticness": 0.00721,
+        "artist": "Evanescence",
+        "duration_ms": 235893,
+        "genre": "metal",
+        "song": "Bring Me To Life",
+        "tempo": 94.612,
+        "year": 2003
+    },
+    {
+        "id": 3296,
+        "acousticness": 0.108,
+        "artist": "Linkin Park",
+        "duration_ms": 196906,
+        "genre": "rock, metal",
+        "song": "Breaking the Habit",
+        "tempo": 100.021,
+        "year": 2003
+    },
+    {
+        "id": 3442,
+        "acousticness": 0.0046,
+        "artist": "Linkin Park",
+        "duration_ms": 185586,
+        "genre": "rock, metal",
+        "song": "Numb",
+        "tempo": 110.018,
+        "year": 2003
+    },
+    {
+        "id": 2182,
+        "acousticness": 0.0875,
+        "artist": "Papa Roach",
+        "duration_ms": 208199,
+        "genre": "rock, metal",
+        "song": "Scars",
+        "tempo": 89.782,
+        "year": 2004
+    },
+    {
+        "id": 2066,
+        "acousticness": 0.0459,
+        "artist": "Nickelback",
+        "duration_ms": 252040,
+        "genre": "rock, metal",
+        "song": "Rockstar",
+        "tempo": 144.072,
+        "year": 2005
+    },
+    {
+        "id": 2070,
+        "acousticness": 0.000681,
+        "artist": "Nickelback",
+        "duration_ms": 238173,
+        "genre": "rock, metal",
+        "song": "Far Away",
+        "tempo": 132.918,
+        "year": 2005
+    },
+    {
+        "id": 3049,
+        "acousticness": 0.000932,
+        "artist": "Nickelback",
+        "duration_ms": 258920,
+        "genre": "rock, metal",
+        "song": "Photograph",
+        "tempo": 145.916,
+        "year": 2005
+    },
+    {
+        "id": 3438,
+        "acousticness": 0.000769,
+        "artist": "Foo Fighters",
+        "duration_ms": 255626,
+        "genre": "rock, metal",
+        "song": "Best of You",
+        "tempo": 130.198,
+        "year": 2005
+    },
+    {
+        "id": 3462,
+        "acousticness": 0.000731,
+        "artist": "Nickelback",
+        "duration_ms": 219320,
+        "genre": "rock, metal",
+        "song": "Savin' Me",
+        "tempo": 164.007,
+        "year": 2005
+    },
+    {
+        "id": 3257,
+        "acousticness": 0.00193,
+        "artist": "Evanescence",
+        "duration_ms": 214706,
+        "genre": "metal",
+        "song": "Call Me When You're Sober",
+        "tempo": 93.41,
+        "year": 2006
+    },
+    {
+        "id": 2074,
+        "acousticness": 0.000917,
+        "artist": "Foo Fighters",
+        "duration_ms": 269373,
+        "genre": "rock, metal",
+        "song": "The Pretender",
+        "tempo": 172.984,
+        "year": 2007
+    },
+    {
+        "id": 2164,
+        "acousticness": 0.00141,
+        "artist": "Seether",
+        "duration_ms": 193893,
+        "genre": "rock, metal",
+        "song": "Fake It",
+        "tempo": 132.078,
+        "year": 2007
+    },
+    {
+        "id": 2244,
+        "acousticness": 0.114,
+        "artist": "Linkin Park",
+        "duration_ms": 166373,
+        "genre": "rock, metal",
+        "song": "Bleed It Out",
+        "tempo": 140.127,
+        "year": 2007
+    },
+    {
+        "id": 3225,
+        "acousticness": 0.157,
+        "artist": "Finger Eleven",
+        "duration_ms": 208106,
+        "genre": "rock, metal",
+        "song": "Paralyzer",
+        "tempo": 106.031,
+        "year": 2007
+    },
+    {
+        "id": 3444,
+        "acousticness": 0.157,
+        "artist": "Finger Eleven",
+        "duration_ms": 208106,
+        "genre": "rock, metal",
+        "song": "Paralyzer",
+        "tempo": 106.031,
+        "year": 2007
+    },
+    {
+        "id": 3647,
+        "acousticness": 0.0141,
+        "artist": "Linkin Park",
+        "duration_ms": 205613,
+        "genre": "rock, metal",
+        "song": "What I've Done",
+        "tempo": 120.119,
+        "year": 2007
+    },
+    {
+        "id": 2632,
+        "acousticness": 0.00107,
+        "artist": "Shinedown",
+        "duration_ms": 222066,
+        "genre": "rock, metal",
+        "song": "Second Chance",
+        "tempo": 100.011,
+        "year": 2008
+    },
+    {
+        "id": 2728,
+        "acousticness": 0.00153,
+        "artist": "3 Doors Down",
+        "duration_ms": 241960,
+        "genre": "pop, rock, metal",
+        "song": "It's Not My Time",
+        "tempo": 127.962,
+        "year": 2008
+    },
+    {
+        "id": 3186,
+        "acousticness": 0.000354,
+        "artist": "Nickelback",
+        "duration_ms": 252653,
+        "genre": "rock, metal",
+        "song": "Gotta Be Somebody",
+        "tempo": 115.998,
+        "year": 2008
+    }
+]
